@@ -1,0 +1,62 @@
+[gd_scene format=2]
+
+[node name="Menu" type="MarginContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+margin_top = 136.0
+margin_right = 1024.0
+margin_bottom = 151.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+bbcode_enabled = true
+bbcode_text = "[center]Chess 2"
+text = "Chess 2"
+fit_content_height = true
+
+[node name="Buttons" type="VBoxContainer" parent="VBoxContainer"]
+margin_left = 480.0
+margin_top = 292.0
+margin_right = 543.0
+margin_bottom = 581.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+custom_constants/separation = 32
+
+[node name="Button" type="Button" parent="VBoxContainer/Buttons"]
+margin_right = 63.0
+margin_bottom = 75.0
+size_flags_horizontal = 5
+size_flags_vertical = 3
+text = "Play"
+
+[node name="Button2" type="Button" parent="VBoxContainer/Buttons"]
+margin_top = 107.0
+margin_right = 63.0
+margin_bottom = 182.0
+size_flags_horizontal = 5
+size_flags_vertical = 3
+text = "Settings"
+
+[node name="Button3" type="Button" parent="VBoxContainer/Buttons"]
+margin_top = 214.0
+margin_right = 63.0
+margin_bottom = 289.0
+size_flags_horizontal = 5
+size_flags_vertical = 3
+text = "Quit"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="VBoxContainer"]
+margin_top = 585.0
+margin_right = 1024.0
+margin_bottom = 600.0
+text = "v0.0.1"
+fit_content_height = true
