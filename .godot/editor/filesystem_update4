@@ -1,0 +1,4 @@
+res://Scenes/Menu.tscn
+res://Resources/Themes/MenuButtonTheme.tres
+res://Code/Globals.gd
+res://Code/Menu.gd
