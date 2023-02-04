@@ -3,6 +3,7 @@
 .import/
 .build/
 .bin/
+.godot/
 addons/
 dialogic/
 bin/
